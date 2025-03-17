@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(167, 255, 255);
+            padding: 10px;
+            margin: 10px;
+        }
+        main {
+            background-color: lightgreen;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+            
+        }
+        main > h2 {
+            border-radius: 20px;
+        }
+        nav {
+            background-color: blueviolet;
+            padding: 3px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
+
+        }
+        nav > a { 
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            
+        }
+        footer {
+            background-color: black;
+            color: whitesmoke;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        article {
+            background-color: lightgray;
+        }
+        article > aside {
+            background-color: lightslategray;
+
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: rgb(167, 149, 149);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"></section>
+
+        <section id="noticias"></section>
+        <article>
+            <h2>Notícia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit accusantium omnis quod veritatis voluptatum? Inventore vel, quis quas nesciunt sequi, soluta architecto quidem excepturi dolore illo voluptatibus officiis qui itaque!</p>
+            <aside>
+                <p>Artigo escrito por José da Silva</p>
+            </aside>
+        </article>
+        <article></article>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Curso em Vídeo</p>
+    </footer>
+</body>
+</html>
